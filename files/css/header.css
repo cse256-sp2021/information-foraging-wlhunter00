@@ -15,6 +15,16 @@ header {
     background-color: #3d3d3d;
 }
 
+.sticky {
+    position: fixed;
+    top: 40px;
+    width: 100%
+}
+
+.sticky+.content {
+    padding-top: 102px;
+}
+
 .container {
     width: 92%;
     max-width: 71em;
@@ -44,7 +54,6 @@ header {
     text-decoration: underline;
 }
 
-
 /* Navbar container */
 
 .navbar {
@@ -52,7 +61,6 @@ header {
     background-color: #3d3d3d;
     font-family: Arial;
 }
-
 
 /* Links inside the navbar */
 
@@ -69,11 +77,9 @@ header {
     text-decoration: underline;
 }
 
-
 header a {
     color: white;
 }
-
 
 /* The dropdown container */
 
@@ -81,7 +87,6 @@ header a {
     float: left;
     overflow: hidden;
 }
-
 
 /* Dropdown button */
 
@@ -103,14 +108,11 @@ header a {
     background-color: inherit;
 }
 
-
 /* Add a red background color to navbar links on hover */
 
-.navbar a:hover,
-.dropdown:hover .dropbtn {
+.navbar a:hover, .dropdown:hover .dropbtn {
     background-color: #555;
 }
-
 
 /* Dropdown content (hidden by default) */
 
@@ -123,7 +125,6 @@ header a {
     z-index: 1;
 }
 
-
 /* Links inside the dropdown */
 
 .dropdown-content a {
@@ -135,13 +136,11 @@ header a {
     text-align: left;
 }
 
-
 /* Add a grey background color to dropdown links on hover */
 
 .dropdown-content a:hover {
     background-color: #ddd;
 }
-
 
 /* Show the dropdown menu on hover */
 
