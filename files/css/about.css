@@ -1,2 +1,7 @@
 @import url("common.css");
 @import url("side_menu.css");
+
+.discipline-list {
+    margin-left: 2em;
+    margin-bottom:1em;
+}
