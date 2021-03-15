@@ -115,3 +115,13 @@ main hr {
 .header-title {
     font-size: 2em !important;
 }
+
+.alert-box {
+    background-color: #a51417;
+    padding: 1em;
+    border-radius: 25px;
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    margin-bottom: 1.5em;
+}
